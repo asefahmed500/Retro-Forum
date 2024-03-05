@@ -5,14 +5,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 
 <body>
     <header>
+        <div class="navbar bg-base-100 ml-32 mr-32 ">
+            <div class="flex-1">
+                <a class="btn btn-ghost text-xl"><img src="images/logo.png" alt=""></a>
+            </div>
+            <div class="flex-none">
+                <ul class="menu menu-horizontal gap-3">
 
+                    <li class="tooltip tooltip-hover tooltip-bottom" data-tip="home">
+                        <button class="btn"><img src="images/Vector (1).png" alt=""></button>
+                    </li>
+                    <li class="tooltip tooltip-hover tooltip-bottom" data-tip="edit">
+                        <button class="btn"><img src="images/Vector (2).png" alt=""></button>
+                    </li>
+                    <li class="tooltip tooltip-hover tooltip-bottom" data-tip="add">
+                        <button class="btn"><img src="images/Vector (3).png" alt=""></button>
+                    </li>
+                    <li class="tooltip tooltip-hover tooltip-bottom" data-tip="flag">
+                        <button class="btn"><img src="images/Vector (4).png" alt=""></button>
+                    </li>
+                    <li>
+                        <button class="btn">sign in </button>
+                    </li>
+
+
+
+
+
+                </ul>
+            </div>
+        </div>
     </header>
 
     <main>
+
+        <section class="ml-60">
+            <div class="bg-no-repeat bg-[#12132D] rounded-8xl  w-[1171px] h-[550px] ..."
+                style="background-image: url('images/banner.png'); ">
+                <div class="flex flex-row gap-20">
+                    <div class=" space-y-5 ml-24 py-40">
+                        <h1 class="text-white">Welcome to the ReTro Forum </h1>
+                        <p class="text-white"> Share your favorite opinion and win and wp forum coffee mug! </p>
+                        <label class="input input-bordered flex items-center gap-2 w-96">
+                            <input type="text" class="grow" placeholder=" Search here anything " />
+                            <button class="badge badge-info btn rounded-3xl w-[123px]">Search</button>
+                        </label>
+                    </div>
+
+                    <div class="ml-24 py-40">
+                        <div class="card w-80 bg-base-100 shadow-xl">
+                            <div class="card-body ml-16">
+                                <div class=" flex flex-row gap-10">
+                                    <div>
+                                        <h6>Registered Users </h6>
+                                        <h6>Forum </h6>
+                                        <h6>Topics </h6>
+                                        <h6>Replies </h6>
+                                    </div>
+                                    <div>
+                                        <p>1</p>
+                                        <p>1</p>
+                                        <p>1</p>
+                                        <p>1</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="mt-24">
+            <div class="text-center">
+                <h1>Let’s Discuss</h1>
+                <p>
+                    Yes, you can run unit tests and view the results directly within the app. The integrated testing
+                    features allow for a streamlined .
+                </p>
+            </div>
+
+        </section>
+
+        <section class="mt-24">
+            <div class="flex flex-row gap-6">
+                <div id="Posts-Container" class="card w-[772px] bg-base-100 shadow-xl space-y-6">
+
+
+                </div>
+
+                <div>
+                    <div  class="card w-96 bg-base-100 shadow-xl">
+                         <div class="flex flex-row gap-32">
+                            <div>
+                                <h3>Title</h3>
+                            </div>
+                            <div>
+                                <p>mark As read </p>
+                            </div>
+
+
+                         </div>
+                   </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
 
